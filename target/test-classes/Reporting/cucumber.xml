@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="4" tests="4" time="62.996917">
+    <testcase classname="Verifying the Adactin Hotel Functionalities" name="Verifying Adactin Login details" time="57.421701">
+        <skipped>
+            <![CDATA[Given user is on the Adactin Hotel page.....................................passed
+When user should enter "SanjuArjun" and "Cinna0419!"........................passed
+And user should click the login button......................................passed
+And user should select the "Sydney","Hotel Creek"...........................undefined
+Then user should click search button........................................undefined
+When user should select the radio button and click continue.................undefined
+And user should enter "sanju" ,"Arjun","ooty , the Nilgiris","1234567890123456","January","2022","223".undefined
+Then user should click the booknow button...................................undefined
+When user print the booking id..............................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Verifying the Adactin Hotel Functionalities" name="Verifying Adactin Login details 2" time="1.1922">
+        <skipped>
+            <![CDATA[Given user is on the Adactin Hotel page.....................................passed
+When user should enter "SanjuArjun" and "Cinna0419!"........................passed
+And user should click the login button......................................passed
+And user should select the "Sydney","Hotel Creek"...........................undefined
+Then user should click search button........................................undefined
+When user should select the radio button and click continue.................undefined
+And user should enter "sanju" ,"Arjun","ooty , the Nilgiris","1234567890123456","January","2022","223".undefined
+Then user should click the booknow button...................................undefined
+When user print the booking id..............................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Verifying the Adactin Hotel Functionalities" name="Verifying Adactin Login details 3" time="1.06594">
+        <skipped>
+            <![CDATA[Given user is on the Adactin Hotel page.....................................passed
+When user should enter "SanjuArjun" and "Cinna0419!"........................passed
+And user should click the login button......................................passed
+And user should select the "Sydney","Hotel Creek"...........................undefined
+Then user should click search button........................................undefined
+When user should select the radio button and click continue.................undefined
+And user should enter "sanju" ,"Arjun","ooty , the Nilgiris","1234567890123456","January","2022","223".undefined
+Then user should click the booknow button...................................undefined
+When user print the booking id..............................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Verifying the Adactin Hotel Functionalities" name="Verifying Adactin Login details 4" time="3.317076">
+        <skipped>
+            <![CDATA[Given user is on the Adactin Hotel page.....................................passed
+When user should enter "SanjuArjun" and "Cinna0419!"........................passed
+And user should click the login button......................................passed
+And user should select the "Sydney","Hotel Creek"...........................undefined
+Then user should click search button........................................undefined
+When user should select the radio button and click continue.................undefined
+And user should enter "sanju" ,"Arjun","ooty , the Nilgiris","1234567890123456","January","2022","223".undefined
+Then user should click the booknow button...................................undefined
+When user print the booking id..............................................undefined
+]]>
+        </skipped>
+    </testcase>
+</testsuite>

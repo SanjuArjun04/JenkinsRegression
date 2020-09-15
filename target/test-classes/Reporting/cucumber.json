@@ -1,0 +1,709 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 25,
+        "name": "Verifying Adactin Login details",
+        "description": "",
+        "id": "verifying-the-adactin-hotel-functionalities;verifying-adactin-login-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 54392051000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the Adactin Hotel page",
+            "match": {
+              "location": "Step2.user_is_on_the_Adactin_Hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143923000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"SanjuArjun\" and \"Cinna0419!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SanjuArjun\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Cinna0419!\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Step2.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2880627100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click the login button",
+            "match": {
+              "location": "Step2.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should select the \"Sydney\",\"Hotel Creek\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "roomType",
+                  "noOfRooms",
+                  "adultPerRoom",
+                  "childPerRoom"
+                ]
+              },
+              {
+                "cells": [
+                  "Double",
+                  "3 - Three",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Standard",
+                  "2 - Two",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Deluxe",
+                  "3 - Three",
+                  "2 - Two",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Super Deluxe",
+                  "3 - Three",
+                  "2 - Two",
+                  "1 - One"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user should click search button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user should select the radio button and click continue",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user should enter \"sanju\" ,\"Arjun\",\"ooty , the Nilgiris\",\"1234567890123456\",\"January\",\"2022\",\"223\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "ccType"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user should click the booknow button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user print the booking id",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Verifying Adactin Login details",
+        "description": "",
+        "id": "verifying-the-adactin-hotel-functionalities;verifying-adactin-login-details;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 474423100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the Adactin Hotel page",
+            "match": {
+              "location": "Step2.user_is_on_the_Adactin_Hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126972700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"SanjuArjun\" and \"Cinna0419!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SanjuArjun\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Cinna0419!\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Step2.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 589561800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click the login button",
+            "match": {
+              "location": "Step2.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should select the \"Sydney\",\"Hotel Creek\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "roomType",
+                  "noOfRooms",
+                  "adultPerRoom",
+                  "childPerRoom"
+                ]
+              },
+              {
+                "cells": [
+                  "Double",
+                  "3 - Three",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Standard",
+                  "2 - Two",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Deluxe",
+                  "3 - Three",
+                  "2 - Two",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Super Deluxe",
+                  "3 - Three",
+                  "2 - Two",
+                  "1 - One"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user should click search button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user should select the radio button and click continue",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user should enter \"sanju\" ,\"Arjun\",\"ooty , the Nilgiris\",\"1234567890123456\",\"January\",\"2022\",\"223\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "ccType"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user should click the booknow button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user print the booking id",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Verifying Adactin Login details",
+        "description": "",
+        "id": "verifying-the-adactin-hotel-functionalities;verifying-adactin-login-details;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 286309200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the Adactin Hotel page",
+            "match": {
+              "location": "Step2.user_is_on_the_Adactin_Hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107956500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"SanjuArjun\" and \"Cinna0419!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SanjuArjun\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Cinna0419!\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Step2.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671241700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click the login button",
+            "match": {
+              "location": "Step2.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should select the \"Sydney\",\"Hotel Creek\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "roomType",
+                  "noOfRooms",
+                  "adultPerRoom",
+                  "childPerRoom"
+                ]
+              },
+              {
+                "cells": [
+                  "Double",
+                  "3 - Three",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Standard",
+                  "2 - Two",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Deluxe",
+                  "3 - Three",
+                  "2 - Two",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Super Deluxe",
+                  "3 - Three",
+                  "2 - Two",
+                  "1 - One"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user should click search button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user should select the radio button and click continue",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user should enter \"sanju\" ,\"Arjun\",\"ooty , the Nilgiris\",\"1234567890123456\",\"January\",\"2022\",\"223\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "ccType"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user should click the booknow button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user print the booking id",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Verifying Adactin Login details",
+        "description": "",
+        "id": "verifying-the-adactin-hotel-functionalities;verifying-adactin-login-details;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2117012800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the Adactin Hotel page",
+            "match": {
+              "location": "Step2.user_is_on_the_Adactin_Hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114401200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"SanjuArjun\" and \"Cinna0419!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SanjuArjun\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Cinna0419!\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Step2.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1084070300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click the login button",
+            "match": {
+              "location": "Step2.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should select the \"Sydney\",\"Hotel Creek\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "roomType",
+                  "noOfRooms",
+                  "adultPerRoom",
+                  "childPerRoom"
+                ]
+              },
+              {
+                "cells": [
+                  "Double",
+                  "3 - Three",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Standard",
+                  "2 - Two",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Deluxe",
+                  "3 - Three",
+                  "2 - Two",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Super Deluxe",
+                  "3 - Three",
+                  "2 - Two",
+                  "1 - One"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user should click search button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user should select the radio button and click continue",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user should enter \"sanju\" ,\"Arjun\",\"ooty , the Nilgiris\",\"1234567890123456\",\"January\",\"2022\",\"223\"",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "ccType"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              },
+              {
+                "cells": [
+                  "VISA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user should click the booknow button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user print the booking id",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the Adactin Hotel Functionalities",
+    "description": "",
+    "id": "verifying-the-adactin-hotel-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
