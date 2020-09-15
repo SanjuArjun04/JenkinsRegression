@@ -7,11 +7,7 @@ import cucumber.api.SnippetType;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src\\test\\resources",glue= {"com/stepdefinition"} ,monochrome=true,plugin= {"pretty",
-		"junit:src\\test\\resources\\Reporting\\cucumber.xml",
-		"json:src\\test\\resources\\Reporting\\cucumber.json",
-		"html:src\\test\\resources\\Reporting"
-		}, snippets=SnippetType.CAMELCASE)
+@CucumberOptions(features="src/test/resources",glue= {"com.stepdefinition"} ,monochrome=true,plugin= {"html:target","json:target/output.json"})
 
 public class TestRunner {
 
